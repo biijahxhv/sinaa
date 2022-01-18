@@ -1,59 +1,45 @@
-bodY {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-.center {
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background: #000;
-}
-.wave {
-  width: 5px;
-  height: 100px;
-  background: linear-gradient(45deg, cyan, #fff);
-  margin: 10px;
-  animation: wave 1s linear infinite;
-  border-radius: 20px;
-}
-.wave:nth-child(2) {
-  animation-delay: 0.1s;
-}
-.wave:nth-child(3) {
-  animation-delay: 0.2s;
-}
-.wave:nth-child(4) {
-  animation-delay: 0.3s;
-}
-.wave:nth-child(5) {
-  animation-delay: 0.4s;
-}
-.wave:nth-child(6) {
-  animation-delay: 0.5s;
-}
-.wave:nth-child(7) {
-  animation-delay: 0.6s;
-}
-.wave:nth-child(8) {
-  animation-delay: 0.7s;
-}
-.wave:nth-child(9) {
-  animation-delay: 0.8s;
-}
-.wave:nth-child(10) {
-  animation-delay: 0.9s;
+
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><div style="position:absolute;top:-200%;"><h1><a href="https://www.codebazan.ir/">&#1705;&#1583;&#1576;&#1575;&#1586;&#1575;&#1606;</a></h1></div><div style="direction:rtl;text-align:right;font:15px tahoma; "> 
+<script>
+<!--
+var content=new Array()
+//change the array below to the text associated with your links Expand or contract the array, depending on how many links you have
+content[0]='<br><big><b>لینک ۱</b></big><br>توضیحات لینک ۱٫'
+content[1]='<br><big><b>لینک ۲</b></big><br>توضیحات لینک۲٫'
+content[2]='<br><big><b>عنوان لینک ۳</b></big><br>توضیحات لینک ۳٫'
+content[3]='<br><big><b>عنوان لینک ۴</b></big><br>توضیحات لینک ۴'
+content[4]='<br><big><b>لینک ۵</b></big><br>توضیحات مربوط به لینک ۵٫'
+content[5]='<br><big><b>توضیحات لینک ۶</b></big><br>توضیحات مربوط به لینک ۶٫'
+content[6]='<br><big><b>لینک ۷</b></big><br>توضیحات لینک ۷'
+content[7]='<br><big><b>لینک ۸</b></big><br>توضیحات لینک ۸'
+content[8]='<br><big><b>دیگر</b></big><br>توضیحات لینک اخر'
+function changetext(whichcontent){
+document.getElementById("descriptions").innerHTML=whichcontent
 }
 
-@keyframes wave {
-  0% {
-    transform: scale(0);
-  }
-  50% {
-    transform: scale(1);
-  }
-  100% {
-    transform: scale(0);
-  }
-}
+//-->
+</script>
+
+
+<div id="scriptmenu" align="center"><p><strong><a href="https://codebazan.ir" onMouseover="changetext(content[0])">لینک۱</a><br>
+            <a href="https://codebazan.ir" onMouseover="changetext(content[1])">لینک ۲</a><br>
+            <a href="https://codebazan.ir" onMouseover="changetext(content[2])">لینک ۳</a><br>
+            <a href="https://codebazan.ir" onMouseover="changetext(content[3])">لینک ۴</a><br>
+            <a href="https://codebazan.ir" onMouseover="changetext(content[4])">لینک ۵</a><br>
+            <a href="https://codebazan.ir" onMouseover="changetext(content[5])">لینک ۶</a><br> 
+            <a href="https://codebazan.ir" onMouseover="changetext(content[6])">لینک ۷</a><br>
+            <a href="https://codebazan.ir" onMouseover="changetext(content[7])">لینک ۸</a><br>
+            <a href="https://codebazan.ir" onMouseover="changetext(content[8])">دیگر</a></strong></p>
+</div> 
+
+ 
+
+<div  id="descriptions" align="center">
+
+<!--Change below to default content of your own-->
+<p><b>خوش امدید</b><br>
+      توضیحات صفحه اول را اینجا وارد کنید <br>برای دیدن توضیحات محصولات ماوس خود را روی لینک ببرید
+<!--Stop editting-->
+
+</div>
