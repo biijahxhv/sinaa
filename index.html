@@ -1,45 +1,137 @@
-
-
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><div style="position:absolute;top:-200%;"><h1><a href="https://www.codebazan.ir/">&#1705;&#1583;&#1576;&#1575;&#1586;&#1575;&#1606;</a></h1></div><div style="direction:rtl;text-align:right;font:15px tahoma; "> 
-<script>
-<!--
-var content=new Array()
-//change the array below to the text associated with your links Expand or contract the array, depending on how many links you have
-content[0]='<br><big><b>لینک ۱</b></big><br>توضیحات لینک ۱٫'
-content[1]='<br><big><b>لینک ۲</b></big><br>توضیحات لینک۲٫'
-content[2]='<br><big><b>عنوان لینک ۳</b></big><br>توضیحات لینک ۳٫'
-content[3]='<br><big><b>عنوان لینک ۴</b></big><br>توضیحات لینک ۴'
-content[4]='<br><big><b>لینک ۵</b></big><br>توضیحات مربوط به لینک ۵٫'
-content[5]='<br><big><b>توضیحات لینک ۶</b></big><br>توضیحات مربوط به لینک ۶٫'
-content[6]='<br><big><b>لینک ۷</b></big><br>توضیحات لینک ۷'
-content[7]='<br><big><b>لینک ۸</b></big><br>توضیحات لینک ۸'
-content[8]='<br><big><b>دیگر</b></big><br>توضیحات لینک اخر'
-function changetext(whichcontent){
-document.getElementById("descriptions").innerHTML=whichcontent
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>تاپ سایت 98</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+box-sizing: border-box;
 }
+body {
+font-family: Arial, Helvetica, sans-serif;
+margin: 0;
+}
+.header {
+padding: 80px;
+text-align: center;
+background: #1abc9c;
+color: white;
+}
+.header h1 {
+font-size: 40px;
+}
+.navbar {
+overflow: hidden;
+background-color: #333;
+position: sticky;
+position: -webkit-sticky;
+top: 0;
+}
+.navbar a {
+float: left;
+display: block;
+color: white;
+text-align: center;
+padding: 14px 20px;
+text-decoration: none;
+}
+.navbar a.right {
+float: right;
+}
+.navbar a:hover {
+background-color: #ddd;
+color: black;
+}
+.navbar a.active {
+background-color: #666;
+color: white;
+}
+.row {
+display: -ms-flexbox; /* IE10 */
+display: flex;
+-ms-flex-wrap: wrap; /* IE10 */
+flex-wrap: wrap;
+}
+.side {
+-ms-flex: 30%; /* IE10 */
+flex: 30%;
+background-color: #f1f1f1;
+padding: 20px;
+}
+.main {
+-ms-flex: 70%; /* IE10 */
+flex: 70%;
+background-color: white;
+padding: 20px;
+}
+.fakeimg {
+background-color: #aaa;
+width: 100%;
+padding: 20px;
+}
+.footer {
+padding: 20px;
+text-align: center;
+background: #ddd;
+}
+@media screen and (max-width: 700px) {
+.row {
+flex-direction: column;
+}
+}
+@media screen and (max-width: 400px) {
+.navbar a {
+float: none;
+width: 100%;
+}
+}
+</style>
+</head>
+<body>
 
-//-->
-</script>
-
-
-<div id="scriptmenu" align="center"><p><strong><a href="https://codebazan.ir" onMouseover="changetext(content[0])">لینک۱</a><br>
-            <a href="https://codebazan.ir" onMouseover="changetext(content[1])">لینک ۲</a><br>
-            <a href="https://codebazan.ir" onMouseover="changetext(content[2])">لینک ۳</a><br>
-            <a href="https://codebazan.ir" onMouseover="changetext(content[3])">لینک ۴</a><br>
-            <a href="https://codebazan.ir" onMouseover="changetext(content[4])">لینک ۵</a><br>
-            <a href="https://codebazan.ir" onMouseover="changetext(content[5])">لینک ۶</a><br> 
-            <a href="https://codebazan.ir" onMouseover="changetext(content[6])">لینک ۷</a><br>
-            <a href="https://codebazan.ir" onMouseover="changetext(content[7])">لینک ۸</a><br>
-            <a href="https://codebazan.ir" onMouseover="changetext(content[8])">دیگر</a></strong></p>
-</div> 
-
- 
-
-<div  id="descriptions" align="center">
-
-<!--Change below to default content of your own-->
-<p><b>خوش امدید</b><br>
-      توضیحات صفحه اول را اینجا وارد کنید <br>برای دیدن توضیحات محصولات ماوس خود را روی لینک ببرید
-<!--Stop editting-->
-
+<div class="header">
+<h1>تاپ سایت 98</h1>
+<p style="font-weight: bold">آموزش رایگان کامپیوتر و برنامه نویسی</p>
 </div>
+
+<div class="navbar">
+<a href="#" class="active">Home</a>
+<a href="#">Link</a>
+<a href="#">Link</a>
+<a href="#" class="right">Link</a>
+</div>
+
+<div class="row">
+<div class="side">
+<h2>About Me</h2>
+<h5>Photo of me:</h5>
+<div class="fakeimg" style="height:200px;">Image</div>
+<p>Some text about me in culpa qui officia deserunt mollit anim..</p>
+<h3>More Text</h3>
+<p>Lorem ipsum dolor sit ame.</p>
+<div class="fakeimg" style="height:60px;">Image</div><br>
+<div class="fakeimg" style="height:60px;">Image</div><br>
+<div class="fakeimg" style="height:60px;">Image</div>
+</div>
+<div class="main">
+<h2>TITLE HEADING</h2>
+<h5>Title description, Dec 7, 2017</h5>
+<div class="fakeimg" style="height:200px;">Image</div>
+<p>Some text..</p>
+<p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+<br>
+<h2>TITLE HEADING</h2>
+<h5>Title description, Sep 2, 2017</h5>
+<div class="fakeimg" style="height:200px;">Image</div>
+<p>Some text..</p>
+<p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+</div>
+</div>
+
+<div class="footer">
+<h2>Footer</h2>
+</div>
+
+</body>
+</html>
